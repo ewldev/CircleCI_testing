@@ -13,9 +13,9 @@ jobs:
         - checkout
         - run: echo "Hello again"
 workflows:
-    version: 2
-    builds:
-      jobs:
-        - build1
-        - build2
+  version: 2
+  builds:
+    jobs:
+      - build1
+      - build2  
              
