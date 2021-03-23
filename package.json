@@ -3,6 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "homepage": "https://aneagoie.github.io/robofriends-pwa",
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
   "jest": {
     "snapshotSerializers": [
       "enzyme-to-json/serializer"
@@ -45,5 +50,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "husky": "^5.2.0",
+    "prettier": "2.2.1",
+    "pretty-quick": "^3.1.0"
   }
 }
