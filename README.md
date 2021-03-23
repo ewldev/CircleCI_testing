@@ -1,4 +1,4 @@
-# robofriends-testing
+# robofriends-testing (CircleCi)
 
 To run the project: 
 
